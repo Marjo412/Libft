@@ -18,21 +18,23 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	size_t	j;
 	char	*dest;
 
-	dest = (char *)malloc(sizeof(*s) * (len + 1));
+	if (!s)
+		return (NULL);
+	j = ft_strlen(s);
+	if (start >= j)
+		len = 0;
+	else if (len > j - start)
+		len = j - start;
+	dest = ft_calloc(len + 1, sizeof(char));
 	if (dest == NULL)
 		return (NULL);
 	i = 0;
-	j = 0;
-	while (s[i] != '\0')
+	while (i < len)
 	{
-		if (i >= start && j < len)
-		{
-			dest[j] = s[i];
-			j++;
-		}
+		dest[i] = s[start + i];
 		i++;
 	}
-	dest[j] = '\0';
+	dest[i] = '\0';
 	return (dest);
 }
 /* s: La chaîne de laquelle extraire la nouvelle chaîne.
