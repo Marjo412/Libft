@@ -75,4 +75,7 @@ char	**ft_split(char const *s, char c)
 	dest[j] = NULL;
 	return (dest);
 }
-/*s: La chaîne de caractères à découper. c: Le caractère délimiteur.*/
+/*s: La chaîne de caractères à découper. c: Le caractère délimiteur.
+ Split permet de diviser une string en plusieurs sous-string, séparer par
+ un caractère délimiteur. permet d'obetnir un tableau avec chaque segment
+ */

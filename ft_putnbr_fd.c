@@ -35,3 +35,5 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd(n % 10, fd);
 	}
 }
+
+/*Écrit l’entier ’n’ sur le descripteur de fichier donné.*/

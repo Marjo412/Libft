@@ -26,3 +26,6 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write(fd, "\n", 1);
 }
+
+/*Écrit La chaîne de caractères ’s’ sur le descripteur de fichier donné
+suivie d’un retour à la ligne.*/

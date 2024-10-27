@@ -25,3 +25,5 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
+
+/*Écrit la chaîne de caractères ’s’ sur le descripteur de fichier donné.*/

@@ -33,3 +33,8 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	dest[i] = '\0';
 	return (dest);
 }
+
+/*Applique la fonction ’f’ à chaque caractère de la chaîne de caractères ’s’,
+passant son index comme premier argument et le caractère lui-même comme
+second argument. Une nouvelle chaîne de caractères est créée (avec malloc(3)),
+résultant des applications successives de ’f’.*/

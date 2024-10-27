@@ -25,3 +25,8 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
+
+/*Applique la fonction ’f’ à chaque caractère de la chaîne de caractères
+transmise comme argument, et en passant son index comme premier argument.
+Chaque caractère est transmis par adresse à ’f’ afin d’être modifié si 
+nécessaire.*/
