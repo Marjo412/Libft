@@ -27,4 +27,5 @@ void	*ft_memset(void *s, int c, size_t len)
 	return (s);
 }
 
-/*rempli une zone memoire avec une valeur donnee sur un certain nd d'octets*/
+/*rempli une zone memoire avec une valeur donnee sur un certain nd d'octets,
+utilisée pour initialiser des tableaux*/

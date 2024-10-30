@@ -40,3 +40,6 @@ void	*ft_memmove(void *dest, const void *src, size_t len)
 	}
 	return (dest);
 }
+
+/* comme 'memcpy' mais peut gérer les situations ou les zones de mem. "dest"
+et "src" se chevauchent, peut copier en sens inverse*/

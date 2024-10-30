@@ -26,3 +26,6 @@ void	*ft_memcpy(void *dest, const void *src, size_t len)
 	}
 	return (dest);
 }
+
+/* copie un bloc de mémoire d'une src vers une dest, sert à effectuer une
+copie binaire sur une zone de mémoire*/

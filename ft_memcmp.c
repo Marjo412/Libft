@@ -25,3 +25,7 @@ int	ft_memcmp(const void *s1, const void *s2, size_t len)
 	}
 	return (0);
 }
+
+/* compare 2 blocs de mémoire, compare les octets d'une zone mémoire avec
+ceux d'une autre et renvoie un result indiquant si elles sont identiques ou
+inf/sup à l'autre*/

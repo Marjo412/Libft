@@ -27,3 +27,7 @@ void	*ft_memchr(const void *s, int c, size_t len)
 	}
 	return (NULL);
 }
+
+/* rechercher un char dans un bloc de mémoire, pacourt le segment de mémoire
+et renvoie un ptr vers la 1ère occurence d'un char spécifié ou NULL si pas
+trouvé*/

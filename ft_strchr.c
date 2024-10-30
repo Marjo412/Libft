@@ -27,3 +27,5 @@ char	*ft_strchr(const char *src, int c)
 		return ((char *)&src[i]);
 	return (NULL);
 }
+
+/* recherche la 1ere occurence d'un char donné dans une string*/

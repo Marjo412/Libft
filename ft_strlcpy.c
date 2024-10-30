@@ -30,3 +30,5 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 	}
 	return (len);
 }
+
+/* copie une string en s'assurant qu'elle ne dépasse pas la taille allouée*/

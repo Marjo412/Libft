@@ -27,3 +27,5 @@ char	*ft_strrchr(const char *src, int c)
 	}
 	return (0);
 }
+
+/* recherche la dernière occurence d'un char donné dans une string*/
