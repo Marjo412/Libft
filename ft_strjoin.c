@@ -39,4 +39,6 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	dest[i] = '\0';
 	return (dest);
 }
-/* s1: La chaîne de caractères préfixe. s2: La chaîne de caractères suffixe.*/
+/* s1:the prefix string, s2 : the suffix string.
+"String join" the function can combine fews string in only one, using malloc
+for the necessary memory.*/
