@@ -25,7 +25,7 @@
 }	t_list;*/
 
 int				ft_atoi(const char *str);
-long			ft_atoi(const char *str);
+long			ft_atol(const char *str);
 void			ft_bzero(void *src, size_t n);
 void			*ft_calloc(size_t nb, size_t len);
 int				ft_isalnum(int c);
