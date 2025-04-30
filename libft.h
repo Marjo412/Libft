@@ -6,7 +6,7 @@
 /*   By: mrosset <mrosset@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 11:21:24 by mrosset           #+#    #+#             */
-/*   Updated: 2025/01/10 10:26:31 by mrosset          ###   ########.fr       */
+/*   Updated: 2025/04/30 12:06:43 by mrosset          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,13 +18,14 @@
 # include <stdlib.h>
 # include <stddef.h>
 
-typedef struct s_list
+/*typedef struct s_list
 {
 	void			*content;
 	struct s_list	*next;
-}	t_list;
+}	t_list;*/
 
 int				ft_atoi(const char *str);
+long			ft_atoi(const char *str);
 void			ft_bzero(void *src, size_t n);
 void			*ft_calloc(size_t nb, size_t len);
 int				ft_isalnum(int c);

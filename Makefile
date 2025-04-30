@@ -6,7 +6,7 @@
 #    By: mrosset <mrosset@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/10 10:28:06 by mrosset           #+#    #+#              #
-#    Updated: 2025/01/10 10:28:07 by mrosset          ###   ########.fr        #
+#    Updated: 2025/04/30 12:15:13 by mrosset          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,6 +16,7 @@ CC = cc #définit le compilateur à utiliser
 CFLAGS = -Wall -Wextra -Werror -I. #flags utilisé pour compiler, I. ajoute le repertoire .h
 
 SRCS = ft_atoi.c \ #liste des sources à compiler
+	   ft_atol.c \
 	   ft_bzero.c \
 	   ft_calloc.c \
 	   ft_isalnum.c \
