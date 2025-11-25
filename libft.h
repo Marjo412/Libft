@@ -18,12 +18,6 @@
 # include <stdlib.h>
 # include <stddef.h>
 
-/*typedef struct s_list
-{
-	void			*content;
-	struct s_list	*next;
-}	t_list;*/
-
 int				ft_atoi(const char *str);
 long			ft_atol(const char *str);
 void			ft_bzero(void *src, size_t n);
